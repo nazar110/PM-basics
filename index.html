@@ -2,11 +2,12 @@
 <html>
 <head>
     <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="site.css" />
     <title>PM Basics</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom">
             <div class="container-fluid">
                 <a class="navbar-brand">PM Basics</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -26,8 +27,8 @@
             </div>
         </nav>
     </header>
-
-    <div class="text-dark" style="padding-left: 30px;padding-right: 30px;">
+    <div class="content">
+        <br>
         <h4 id="pm-life-cycle" style="text-align: center;"><strong>Project Life Cycle</strong></h4>
         <p>The life cycle of a project is the time interval between the appearance of a project (project idea) and its full implementation (liquidation of the project).</p>
         <div class="row">
@@ -41,18 +42,18 @@
         </div>
         <h5><strong>The Key Phases of Project Life Cycle</strong></h5>
         <div class="row" style="text-align: center;">
-            <div class="col-sm-6" style="background-color: lightblue;"><a href="#initiation"><h5>Initiation</h5></a></div>
-            <div class="col-sm-6 bg-light"><a href="#planning"><h5>Planning</h5></a></div>
+            <div class="col-sm-6" style="background-color: #7DA2A9;"><a href="#initiation"><h5>Initiation</h5></a></div>
+            <div class="col-sm-6" style="background-color: #F7F7F7;"><a href="#planning"><h5>Planning</h5></a></div>
         </div>
         <div class="row" style="text-align: center;">
-            <div class="col-sm-6 bg-light"><a href="#execution"><h5>Execution</h5></a></div>
-            <div class="col-sm-6" style="background-color: lightblue;"><a href="#closure"><h5>Closure</h5></a></div>
+            <div class="col-sm-6" style="background-color: #F7F7F7;"><a href="#execution"><h5>Execution</h5></a></div>
+            <div class="col-sm-6" style="background-color: #7DA2A9;"><a href="#closure"><h5>Closure</h5></a></div>
         </div>
         <br>
         <br>
         <div id="initiation" class="row">
             <div class="col-sm-3">
-                <img src="img/light bulb.jpg" alt="Image not found" width="100%">
+                <img src="img/bulb.png" alt="Image not found" width="100%">
             </div>
             <div class="col-sm-9">
                 <p><strong>Initiation phase.</strong> At this stage, you figure out the purpose of your project, determine the feasibility of the project and determine the main results of the project. So you get the customer’s idea, discuss the requirements, approve the term of implementation of the project, confirm the cost of the project. After analyzing all the necessary conditions of the project, the project officially starts. </p>
@@ -69,7 +70,7 @@
         <br>
         <div id="execution" class="row">
             <div class="col-sm-3">
-                <img src="img/development.jpg" alt="Image not found" width="100%">
+                <img src="img/web-development.png" alt="Image not found" width="100%">
             </div>
             <div class="col-sm-9">
                 <p><strong>Execution phase.</strong> This phase turns your plan into action. The project manager’s job in this phase of the project management life cycle is to keep work on track, organize team members, manage timelines, and make sure the work is done according to the original plan. Effective project management comes down to keeping track of every aspect of the project and making sure everyone knows what their roles are and what needs to be completed by when. Without organization, no project can succeed. You lead your project using a project management methodology. </p>
@@ -86,32 +87,84 @@
         <br>
         <h4 id="pm-methodologies" style="text-align: center;"><strong>Project Management Methodologies</strong></h4>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <img src="img/waterfall methodology.jpg" alt="Image not found" width="100%">
             </div>
-            <div class="col-sm-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="col-sm-6">
+                <p><strong>Waterfall project management methodology</strong> is a sequential, linear process of project management. It consists of several discrete phases. No phase begins until the prior phase is complete, and each phase’s completion is terminal—waterfall management does not allow you to return to a previous phase. The only way to revisit a phase is to start over at phase one. Below are listed the general stages of this methodology. </p>
+                <p><strong>Step 1. Requirement gathering and documentation.</strong> In this stage, you should gather comprehensive information about what this project requires. By the end of this phase, the project requirements should be clear, and you should have a requirements document that has been distributed to your team.</p>
+                <p><strong>Step 2. System design.</strong> Using the established requirements, your team designs the system. No coding takes place during this phase, but the team establishes specs such as programming language or hardware requirements.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p><strong>Step 3. Implementation.</strong> Programmers take information from the previous stage and create a functional product. They typically implement code in small pieces, which are integrated at the end of this phase or the beginning of the next.</p>
+                <p><strong>Step 4. Testing.</strong> Testers methodically find and report any problems. If serious issues arise, your project may need to return to phase one for reevaluation.</p>
+                <p><strong>Step 5. Delivery/deployment.</strong> In this phase, the product is complete, and your team submits the deliverables to be deployed or released.</p>
+                <p><strong>Step 6. Maintenance.</strong> The product has been delivered to the client and is being used. As issues arise, your team may need to create patches and updates may to address them. Again, big issues may necessitate a return to phase one.</p>
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col-sm-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-sm-4">
-                <img src="img/scrum methodology.png" alt="Image not found" width="100%">
+            <div class="col-sm-12">
+                <p><strong>Agile project management methodology</strong> rejects sequential phases and relies on simultaneous, incremental work across various departments. Teams complete work in sprints, which are typically broken out into two-week chunks of time. Various checkpoints throughout the project allow the team to change direction as needed. By continually taking the temperature of the project throughout the process, you can deliver a better final product.</p>
+                <p><strong>12 principles from the Agile Manifesto:</strong></p>
+                <ul>
+                    <li>
+                        Customer satisfaction through early and continuous software delivery
+                    </li>
+                    <li>
+                        Accommodate changing requirements throughout the development process
+                    </li>
+                    <li>
+                        Frequent delivery of working software
+                    </li>
+                    <li>
+                        Collaboration between the business stakeholders and developers throughout the project
+                    </li>
+                    <li>
+                        Support, trust, and motivate the people involved
+                    </li>
+                    <li>
+                        Enable face-to-face interactions
+                    </li>
+                    <li>
+                        Working software is the primary measure of progress
+                    </li>
+                    <li>
+                        Agile processes to support a consistent development pace
+                    </li>
+                    <li>
+                        Attention to technical detail and design enhances agility
+                    </li>
+                    <li>
+                        Simplicity
+                    </li>
+                    <li>
+                        Self-organizing teams encourage great architectures, requirements, and designs
+                    </li>
+                    <li>
+                        Regular reflections on how to become more effective
+                    </li>
+                </ul>
+                <p>These 12 principles are informed by four main values in Agile. Those <strong>four Agile values</strong> are: </p>
+                <ul>
+                    <li>
+                        Individuals and interactions over processes and tools
+                    </li>
+                    <li>
+                        Working software over comprehensive documentation
+                    </li>
+                    <li>
+                        Responding to change over following a plan
+                    </li>
+                    <li>
+                        Customer collaboration over contract negotiation
+                    </li>
+                </ul>
+                <p>There are many types of Agile frameworks to choose from for development and project management. Some of them are: scrum, kanban, scrumban, extreme programming, etc.</p>
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="img/kanban methodology.png" alt="Image not found" width="100%">
-            </div>
-            <div class="col-sm-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-        <br>
     </div>
 </body>
 </html>

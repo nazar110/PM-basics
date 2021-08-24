@@ -1,0 +1,11 @@
+.content {
+    background-color: #F7F7F7;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+a[href] {
+    color:black;
+}
+header {
+    background-color: #7DA2A9;
+}
