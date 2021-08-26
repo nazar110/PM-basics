@@ -1,11 +1,20 @@
 .content {
-    background-color: #F7F7F7;
+    /*background-color: #F7F7F7;*/
     padding-left: 30px;
     padding-right: 30px;
-}
-a[href] {
-    color:black;
 }
 header {
     background-color: #7DA2A9;
 }
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
